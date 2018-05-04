@@ -1,0 +1,44 @@
+[
+	{
+		"name":"Wines",
+		"types":[
+			{
+				"name":"Whites",
+				"list":[]
+			},
+			{
+				"name":"Reds",
+				"list":["Pinot Noir"]
+			}
+		],
+		"image": "https://via.placeholder.com/300x300"
+	},
+	{
+		"name":"Beers",
+		"types":[
+			{
+				"name":"Taps",
+				"list":[]
+			},
+			{
+				"name":"Bottles",
+				"list":[]
+			}
+		],
+		"image": "https://via.placeholder.com/300x300"
+	},
+	{
+		"name":"Cocktails",
+		"types":[
+			{
+				"name":"Signatures",
+				"list":[]
+			},
+			{
+				"name":"Old School",
+				"list":[]
+			}
+		],
+		"image": "https://via.placeholder.com/300x300"
+	}
+]
