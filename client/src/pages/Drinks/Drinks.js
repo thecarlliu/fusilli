@@ -28,8 +28,7 @@ const Drinks = () => (
     		))
     	}
     </div>
-  </div>
-    
+  </div>  
 );
 
 export default About;

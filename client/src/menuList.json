@@ -1,0 +1,43 @@
+[
+	{
+		"name":"Appetizers & Starters",
+		"types":[
+			{
+				"name":"Appetizers",
+				"list":["Chicken Wings", "Nachos", "Artichoke Dip"]
+			},
+			{
+				"name":"Salads",
+				"list":["Beet & Gorgonzola", "Caesar", "Waldorf"]
+			},
+			{
+				"name":"Soups",
+				"list":["Tomato", "Chicken Wild Rice", "French Onion"]
+			}
+		],
+		"image": "https://via.placeholder.com/300x300"
+	},
+	{
+		"name":"Entrees",
+		"types":[
+			{
+				"name":"Vegetarian ",
+				"list":["Sage Butter Gnocchi", "Lentil Burger", "Chick Peas & Rice" ]
+			},
+			{
+				"name":"Pastas",
+				"list":["Chicken Penne", "Beef Bolognese", "Shrimp Linguine"]
+			},
+			{
+				"name":"Entrees",
+				"list":["Filet Mignon", "Hickory Smoked Salmon", "Pork Chops"]
+			}
+		],
+		"image": "https://via.placeholder.com/300x300"
+	},
+	{
+		"name":"Desserts",
+		"list":[],
+		"image": "https://via.placeholder.com/300x300"
+	}
+]
