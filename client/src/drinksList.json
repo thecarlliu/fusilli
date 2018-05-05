@@ -4,11 +4,11 @@
 		"types":[
 			{
 				"name":"Whites",
-				"list":[]
+				"list":["Pinot Grigio", "Sauvignon blanc", "Riesling"]
 			},
 			{
 				"name":"Reds",
-				"list":["Pinot Noir"]
+				"list":["Cabernet Sauvignon","Pinot Noir", "Merlot"]
 			}
 		],
 		"image": "https://via.placeholder.com/300x300"
@@ -18,11 +18,11 @@
 		"types":[
 			{
 				"name":"Taps",
-				"list":[]
+				"list":["Budweiser", "Surly", "Coors"]
 			},
 			{
 				"name":"Bottles",
-				"list":[]
+				"list":["Heineken", "Blue Moon", "Fat Tire" ]
 			}
 		],
 		"image": "https://via.placeholder.com/300x300"
@@ -32,11 +32,11 @@
 		"types":[
 			{
 				"name":"Signatures",
-				"list":[]
+				"list":["Oscar", "Daiquiri", "Marguarita"]
 			},
 			{
 				"name":"Old School",
-				"list":[]
+				"list":["Old Fashion", "Vodka Gimlet", "Rum & Coke"]
 			}
 		],
 		"image": "https://via.placeholder.com/300x300"

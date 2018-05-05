@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero";
 import "./Menu.css";
 
 const menuList = require ("../../menuList.json");
@@ -7,7 +8,7 @@ const Menu = () => (
   <div>
     <div className="grid-x medium-12">
     	{
-    		drinksList.map((menu)=>(
+    		menuList.map((menu)=>(
     			<div className="cell medium-4">
 	    			<img src={menu.image} alt=""/>
 	    			<h4>{menu.name}</h4>
@@ -24,15 +25,10 @@ const Menu = () => (
 	    				))
 	    			}
 	    		</div>
-    		))
-    	}
+	    	))
+	    }		
     </div>
   </div>
-    
 );
-
-
-
-
 
 export default Menu;
