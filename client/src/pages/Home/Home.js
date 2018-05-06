@@ -1,20 +1,16 @@
 import React from "react";
 import "./Home.css";
-import Nav from "../../components/Nav";
-// import Hero from "../../components/Hero";
-import About from "../../components/About";
-// import Drinks from "../../components/Drinks";
-// import Menu from "../../components/Menu";
-import Reservations from "../Reservations";
-import Footer from "../../components/Footer";
+import Hero from "../../components/Hero";
+import Features from "../../components/Features";
+import Details from "../../components/Details";
 
-const images = require("../../images.json"); //need to change this path
+const images = require("../../images.json");
 
 const Home = () => (
     <div className="grid-x medium-12">
-        {/* <Drinks /> */}
-        {/* <Menu /> */}
-        <Reservations />
+    	<Hero img="../../homeBanner.png"/>
+    	<Features />
+    	<Details />
     </div>
 );
 
