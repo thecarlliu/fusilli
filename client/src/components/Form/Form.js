@@ -55,6 +55,7 @@ class Form extends Component {
             name="numberofGuests"
             onChange={this.handleInputChange}
             type="number"
+            placeholder="Enter nunber of guests"
           />
           <button onClick={this.handleFormSubmit}>Submit</button>
         </form>
