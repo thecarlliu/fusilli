@@ -1,8 +1,7 @@
 import React from "react";
-import Hero from "../components/Hero";
 import "./Drinks.css";
 
-const drinksList = require ("../../drinksList.json");
+const drinksList = require("../../drinksList.json");
 
 const Drinks = () => (
   <div>
@@ -14,14 +13,16 @@ const Drinks = () => (
 	    			<h4>{drink.name}</h4>
 	    			{
 	    				drink.types.map((drinkType)=>(
-	    					<h5>{drinkType.name}</h5>
-	    					<ul>
-	    						{
-	    							drinkType.list.map((drink)=>(
-	    								<li>{drink}</li>
-	    							))
-	    						}
-	    					</ul>
+                            <div>
+                                <h5>{drinkType.name}</h5>
+                                <ul>
+                                    {
+                                        drinkType.list.map((drink)=>(
+                                            <li>{drink}</li>
+                                        ))
+                                    }
+                                </ul>
+                            </div>
 	    				))
 	    			}
 	    		</div>
@@ -31,4 +32,4 @@ const Drinks = () => (
   </div>  
 );
 
-export default About;
+export default Drinks;
