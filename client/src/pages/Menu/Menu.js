@@ -12,18 +12,27 @@ const Menu = () => (
     			<div className="cell medium-4">
 	    			<img src={menu.image} alt=""/>
 	    			<h4>{menu.name}</h4>
-	    			{
-	    				menu.types.map((menuType)=>(
-	    					<h5>{menuType.menu}</h5>
-	    					<ul>
-	    						{
-	    							menuType.list.map((menu)=>(
-	    								<li>{menu}</li>
-	    							))
-	    						}
-	    					</ul>
-	    				))
-	    			}
+	    			
+    				if (menu.name==="Desserts")
+					{
+						menu.list.map((item)=>(
+    						<li>{item}</li>
+    					))
+    				} 
+
+    				else {
+    					menu.types.map((menuType)=>(
+    					<h5>{menuType.name}</h5>
+    					<ul>
+    						{
+    							menuType.list.map((item)=>(
+    								<li>{item}</li>
+    							))
+    						}
+    					</ul>
+    					))
+    				}
+	    			
 	    		</div>
 	    	))
 	    }		
