@@ -1,18 +1,18 @@
 [
 	{
-		"name":"Appetizers & Starters",
+		"name":"Starters",
 		"types":[
 			{
 				"name":"Appetizers",
-				"list":["Chicken Wings", "Nachos", "Artichoke Dip"]
+				"list":["Chicken Wings", "Nachos", "Artichoke Dip", "Cheese Platter", "Bruschetta", "Coconut Shrimp", "Calamari", "Crabcakes"]
 			},
 			{
 				"name":"Salads",
-				"list":["Beet & Gorgonzola", "Caesar", "Waldorf"]
+				"list":["Beet & Gorgonzola", "Caesar", "Waldorf", "Italian", "Asian Apple", "Garden", "Cobb"]
 			},
 			{
 				"name":"Soups",
-				"list":["Tomato", "Chicken Wild Rice", "French Onion"]
+				"list":["Tomato", "Chicken Wild Rice", "French Onion", "Wisconsin Beer Cheese", "Cheddar and Broccoli", "Chili", "Italian Wedding Soup"]
 			}
 		],
 		"image": "https://via.placeholder.com/300x300"
@@ -22,22 +22,22 @@
 		"types":[
 			{
 				"name":"Vegetarian ",
-				"list":["Sage Butter Gnocchi", "Lentil Burger", "Chick Peas & Rice" ]
+				"list":["Sage Butter Gnocchi", "Lentil Burger", "Chick Peas & Rice", "Eggplant Parmesan", "Butternut Squash Risotto"]
 			},
 			{
 				"name":"Pastas",
-				"list":["Chicken Penne", "Beef Bolognese", "Shrimp Linguine"]
+				"list":["Chicken Alfredo", "Beef Bolognese", "Linguine del Mar", "Tortellini di Panna", "Chicken Rigatoni", "Spaghetti Carbonara", "Crab Ravioli", "Lamb on Pappardelle"]
 			},
 			{
 				"name":"Entrees",
-				"list":["Filet Mignon", "Hickory Smoked Salmon", "Pork Chops"]
+				"list":["Filet Mignon", "Hickory Smoked Salmon", "Pork Chops", "Roasted Balsamic Chicken", "Chicken Cacciatore", "Chicken Cordon Bleu", "Korean Short Ribs", "Lobster Tail"]
 			}
 		],
 		"image": "https://via.placeholder.com/300x300"
 	},
 	{
 		"name":"Desserts",
-		"list":[],
+		"list":["Creme Brulee", "Cheesecake", "Chocolate Torte", "Carrot Cake", "Apple Crisp", "Lemon Meringue", "Tiramisu", "Keylime Pie", "Panacotta"],
 		"image": "https://via.placeholder.com/300x300"
 	}
 ]
