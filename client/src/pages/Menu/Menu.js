@@ -7,19 +7,18 @@ const Menu = () => (
   <div>
     <div className="grid-x medium-12">
     	{
-    		menuList.map((menu)=>(
+    		menuList.map((menu)=> (
     			<div className="cell medium-4">
 	    			<img src={menu.image} alt=""/>
 	    			<h4>{menu.name}</h4>
-                    {
-                        if (menu.name==="Desserts") {
-                            menu.list.map((item)=>(
-                                <li>{item}</li>
+                    { menu.name==="Desserts" ? (
+                    <div>
+                     { menu.list.map((item)=>(
+                           <li>{item}</li>
                             ))
                         }
-
-                        else {
-                            menu.types.map((menuType)=>(
+                        </div>
+                    ) : (menu.types.map((menuType)=>(
                                 <div>
                                 <h5>{menuType.name}</h5>
                                 <ul>
@@ -31,7 +30,7 @@ const Menu = () => (
                                 </ul>
                                 </div>
                             ))
-                        }
+                        )
                     }
 	    		</div>
 	    	))
