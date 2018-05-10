@@ -1,4 +1,65 @@
 .hero-img {
     width: 100%;
-    height: 200px;
+    height: 400px;
+}
+
+.featuresArea {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feature, .feature a {
+    text-align: center;
+    color: purple;
+}
+
+.feature-icon {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.detailsArea {
+    color: purple;
+}
+
+.about-content {
+    text-align: center;
+    color: purple;
+}
+
+.about-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-content {
+    color: purple;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drinks-content {
+    color: purple;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.drinks-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.footer, .footer a {
+    text-align: center;
+    color: purple;
+    background-color: orange;
 }

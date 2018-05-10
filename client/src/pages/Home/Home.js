@@ -4,7 +4,7 @@ import Hero from "../../components/Hero";
 import Features from "../../components/Features";
 import Details from "../../components/Details";
 
-const homeBanner = require("../../images/homeBanner.jpg");
+const homeBanner = require("../../images/homeBanner.png");
 
 const Home = () => (
     <div className="grid-x medium-12">

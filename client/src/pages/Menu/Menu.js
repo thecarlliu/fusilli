@@ -2,19 +2,20 @@ import React from "react";
 import "./Menu.css";
 
 const menuList = require("../../menuList.json");
+const menuIcon = require("../../images/featureIcon.png");
 
 const Menu = () => (
-  <div>
+  <div className="menu-content">
     <div className="grid-x medium-12">
     	{
     		menuList.map((menu)=> (
     			<div className="cell medium-4">
-	    			<img src={menu.image} alt=""/>
+	    			<img className="menu-img" src={menuIcon} alt=""/>
 	    			<h4>{menu.name}</h4>
                     { menu.name==="Desserts" ? (
                     <div>
                      { menu.list.map((item)=>(
-                           <li>{item}</li>
+                         <p>{item}</p>
                             ))
                         }
                         </div>
@@ -24,7 +25,7 @@ const Menu = () => (
                                 <ul>
                                 {
                                     menuType.list.map((item) => (
-                                        <li>{item}</li>
+                                        <p>{item}</p>
                                     ))
                                 }
                                 </ul>

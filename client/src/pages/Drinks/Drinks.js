@@ -2,14 +2,15 @@ import React from "react";
 import "./Drinks.css";
 
 const drinksList = require("../../drinksList.json");
+const drinkIcon = require("../../images/featureIcon.png");
 
 const Drinks = () => (
-  <div>
+  <div className="drinks-content">
     <div className="grid-x medium-12">
     	{
     		drinksList.map((drink)=>(
     			<div className="cell medium-4">
-	    			<img src={drink.image} alt=""/>
+	    			<img className="drinks-img" src={drinkIcon} alt=""/>
 	    			<h4>{drink.name}</h4>
 	    			{
 	    				drink.types.map((drinkType)=>(
@@ -18,7 +19,7 @@ const Drinks = () => (
                                 <ul>
                                     {
                                         drinkType.list.map((drink)=>(
-                                            <li>{drink}</li>
+                                            <p>{drink}</p>
                                         ))
                                     }
                                 </ul>
